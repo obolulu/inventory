@@ -38,9 +38,9 @@ namespace UI
             }
 
 
-            Vector2Int mousePositionOnGrid = GridManager.Instance.GetMousePositionOnGrid();
-            currentHeldItem.transform.position = new Vector3(mousePositionOnGrid.x * GridManager.GridWidth,
-                -mousePositionOnGrid.y * GridManager.GridHeight);
+            // Vector2Int mousePositionOnGrid = GridManager.Instance.GetMousePositionOnGrid();
+            // currentHeldItem.transform.position = new Vector3(mousePositionOnGrid.x * GridManager.GridWidth,
+            //     -mousePositionOnGrid.y * GridManager.GridHeight);
         }
     }
 }
